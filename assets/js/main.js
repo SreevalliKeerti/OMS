@@ -2,7 +2,7 @@
     "use strict";
 
     // Smooth scroll for the navigation menu and links with .scrollto classes
-    var scrolltoOffset = $('#header').outerHeight() - 1;
+    var scrolltoOffset = $('#header1').outerHeight() - 1;
     $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
@@ -11,7 +11,7 @@
 
                 var scrollto = target.offset().top - scrolltoOffset;
 
-                if ($(this).attr("href") == '#header') {
+                if ($(this).attr("href") == '#header1') {
                     scrollto = 0;
                 }
 
