@@ -446,10 +446,10 @@ h6 {
         text-align: center;
     }
     #header .logo img {
-        width: 16vh;
+        width: 8vh;
     }
     #header1 .logo img {
-        width: 15vh;
+        width: 8vh;
     }
 }
 
@@ -530,6 +530,10 @@ h6 {
     font-size: 14px;
     font-weight: 500;
     text-transform: none;
+}
+
+.nav-menu .drop-down ul li a{
+    color:rgb(7, 7, 7);
 }
 
 .nav-menu .drop-down ul a:hover,
