@@ -618,6 +618,7 @@ h6 {
     visibility: hidden;
     border-radius: 10px;
     padding: 10px 0;
+    background-color: #3C3842;
 }
 
 .mobile-nav * {
@@ -629,7 +630,7 @@ h6 {
 .mobile-nav a {
     display: block;
     position: relative;
-    color: #545454;
+    color: #c3c3c3;
     padding: 10px 20px;
     font-weight: 500;
     outline: none;
@@ -693,7 +694,20 @@ h6 {
     color: #fff;
 }
 
+/*--------------------------------------------------------------
+# HomePage Image
+--------------------------------------------------------------*/
 
+.homepage img{
+    width: 55%;
+}
+
+@media (max-width: 768px){
+    .homepage img{
+        width: 90%;
+        margin-bottom: 90px;
+    }
+}
 /*--------------------------------------------------------------
 # Sticky icons
 --------------------------------------------------------------*/
